@@ -1,0 +1,30 @@
+{
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@lebogo/eventsystem": "github:OnuGame/eventsystem"
+  },
+  "name": "@onu2/event-networking",
+  "description": "Onu2's event system with network capabilities for clients and servers.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OnuGame/event-networking.git"
+  },
+  "keywords": [
+    "events",
+    "networking",
+    "onu2"
+  ],
+  "author": "LeBogo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OnuGame/event-networking/issues"
+  },
+  "homepage": "https://github.com/OnuGame/event-networking#readme"
+}
