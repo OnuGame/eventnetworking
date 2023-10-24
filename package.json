@@ -1,16 +1,20 @@
 {
   "devDependencies": {
+    "@types/ws": "^8.5.8",
+    "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "@lebogo/eventsystem": "github:OnuGame/eventsystem"
+    "@lebogo/eventsystem": "github:OnuGame/eventsystem",
+    "ws": "^8.14.2"
   },
   "name": "@onu2/event-networking",
   "description": "Onu2's event system with network capabilities for clients and servers.",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "tsc"
   },
   "repository": {
     "type": "git",

@@ -4,9 +4,5 @@
     "module": "commonjs",
     "target": "ESNext",
     "declaration": true
-  },
-  "exclude": [
-    "example",
-    "dist"
-  ]
+  }
 }
