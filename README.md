@@ -9,11 +9,11 @@ EventNetworking can handle reconnects if a WebSocket connection is lost.
 
 ## Usage
 
-> **Note:** The following examples are also included in the [eventnetworking-example](./example) repository and can be used as a starting point for your own project.
-
 ### Shared Events
 
 The shared events are the most important part of EventNetworking. They define your event structure and ensure type safety between clients and servers.
+
+> **Note:** You should define them in a separate package, which can be used by both the client and the server.
 
 Here is an example of a custom event:
 
