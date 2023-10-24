@@ -9,9 +9,7 @@ EventNetworking can handle reconnects if a WebSocket connection is lost.
 
 ## Usage
 
-> **Note:** The following examples are also included in the [example](./example) folder and can be used as a starting point for your own project.
->
-> The client utilizes Vite as a bundler, while the server and shared library are built using a conventional TypeScript + Node.js configuration.
+> **Note:** The following examples are also included in the [eventnetworking-example](./example) repository and can be used as a starting point for your own project.
 
 ### Shared Events
 
