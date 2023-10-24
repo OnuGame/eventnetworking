@@ -8,7 +8,7 @@
     "@lebogo/eventsystem": "github:OnuGame/eventsystem",
     "ws": "^8.14.2"
   },
-  "name": "@onu2/event-networking",
+  "name": "@lebogo/event-networking",
   "description": "Onu2's event system with network capabilities for clients and servers.",
   "version": "1.0.0",
   "main": "dist/index.js",
