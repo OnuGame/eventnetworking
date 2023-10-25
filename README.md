@@ -7,6 +7,10 @@ EventNetworking can handle reconnects if a WebSocket connection is lost.
 
 ## Installation
 
+```
+npm install https://github.com/OnuGame/eventnetworking
+```
+
 ## Usage
 
 ### Shared Events
