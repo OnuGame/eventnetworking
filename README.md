@@ -13,6 +13,8 @@ npm install https://github.com/OnuGame/eventnetworking
 
 ## Usage
 
+For an example, check out the [EventNetworking Example Project](https://github.com/OnuGame/eventnetworking-example).
+
 ### Shared Events
 
 The shared events are the most important part of EventNetworking. They define your event structure and ensure type safety between clients and servers.
