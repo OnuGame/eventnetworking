@@ -38,6 +38,8 @@ export class Client extends EventSystem {
                 }
 
                 this.reconnectAttempts++;
+            } else {
+                this.disconnect(false);
             }
         };
     }
@@ -51,6 +53,8 @@ export class Client extends EventSystem {
                 if (this.isReconnecting) {
                     this.send(new ClientReconnectResponseEvent(this.clientId));
                     this.isReconnecting = false;
+                    // TODO | What if server can't reconnect the client because it's not found?
+                    // TODO | -> Implement a server response to handle this case.
                     return;
                 }
 
