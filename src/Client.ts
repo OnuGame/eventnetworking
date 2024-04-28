@@ -20,8 +20,6 @@ export class Client extends EventSystem {
     constructor(private url: string) {
         super();
 
-        console.log(this);
-
         this.connect();
     }
 
@@ -77,7 +75,6 @@ export class Client extends EventSystem {
      * @param event The event to send to the server.
      */
     send(event: BaseEvent) {
-        console.log(`Sending event: ${event.stringify()}`);
         this.ws.send(event.stringify());
     }
 
@@ -103,7 +100,6 @@ export class Client extends EventSystem {
     }
 
     private messageReceived(message: string) {
-        console.log(`Message received: ${message}`);
         this.parse(message);
     }
 }
